@@ -1,0 +1,21 @@
+.containerLibrary{
+border-bottom: 1px solid gray;
+padding: 1rem 2rem;
+color: aliceblue;
+}
+
+.titleContainerLibraryPage{
+    margin: 0.5rem 4rem;
+}
+.titleContainerLibraryPage b{
+    margin: auto 0.5rem;
+    padding: auto 0.5rem;
+    font-size: medium;
+}
+.containerVideoListLibraryPage{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    max-height: 80vh;
+    overflow-y: auto;
+}

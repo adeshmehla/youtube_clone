@@ -18,12 +18,12 @@
     margin: 0.2rem;
     padding: 0.5rem;
     border: 1px solid transparent;
-    margin-left: 0.5rem;
+    margin-left: 1.1rem;
     margin-right: 0.7rem;
     border-radius: 100%;
 }
 .burger p{
-    margin: 0.5px;
+    margin: 0.7px;
     width: 1.2rem;
     height: 0.1rem;
     background-color: rgb(247, 237, 237);
@@ -31,12 +31,13 @@
 
 .logo_div_navbar{
     display: flex;
+    text-decoration: none;
 }
 
 .logo_title_navbar{
     margin: auto;
     color: white;
-    width: 65px;
+    width: 55px;
     font-weight: bold;
 }
 
@@ -79,10 +80,4 @@ height: 2px;
     border-radius: 100%;
     background-color: rgb(224, 227, 214);
     display: flex;
-}
-.fstCharLogoApp{
-    margin: auto;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
 }

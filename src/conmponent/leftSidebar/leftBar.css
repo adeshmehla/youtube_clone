@@ -1,0 +1,86 @@
+.leftSideBarContainer{
+    background-color: rgb(44, 44, 44);
+    width: 4.8rem;
+    height: calc(100vh - 3.55rem);
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.iconSideBarDiv{
+   cursor: pointer;
+   color: white;
+   text-decoration: none;
+   display: flex;
+   flex-direction: column;
+   padding: 0.5rem;
+}
+.iconSideBar{
+    margin: auto;
+}
+.textSideBarIcon{
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.85rem;
+    padding: 0.2rem;
+
+}
+.iconSideBarDiv:hover,
+.iconSideBarDiv:active{
+    color: aliceblue;
+background-color: rgb(68, 68,68);
+}
+
+/* ///////////////////////////////////////// */
+.drawerLeftSideBarContainer{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    z-index: 500;   
+}
+
+.drawerLeftSideBarSubContainer{
+    height: calc(100vh - 3.6rem);
+
+    overflow-y: scroll;
+    background-color: rgb(28,28,28);
+    width: 15rem;
+}
+
+.drawerLeftSideBar,
+.libraryBtnDrawerLeftSideBar{
+    padding-top: 0.5rem;
+    border-bottom: 2px solid rgb(128,128,128, 0.293);
+}
+.iconSideBarDiv p{
+    display: flex;
+    margin: 0;
+}
+.subscriptionLsdbar{
+color: white;
+}
+.subscriptionLsdbar h3{
+text-decoration: underline;
+margin: 20px 10px;
+}
+.channelLsdbar{
+    display: flex;
+    cursor: pointer;
+}
+.channelLsdbar:hover{
+    color: rgb(77, 77, b243);
+}
+.channelLsdbar p{
+border: 1px solid;
+background-color: gray;
+padding: 0.5rem;
+border-radius: 100%;
+margin: 1rem;
+}
+.channelLsdbar div{
+    margin: auto;
+    width: 60%;
+
+}
+
+.drawerLeftSideBarContainer3{
+    flex-grow: 1;
+}

@@ -1,0 +1,44 @@
+.videoShowVideo{
+    cursor:pointer;
+    margin: 0.4rem;
+    margin-bottom: 0;
+    width: calc(100% - 0.8rem);
+    height: 70%;
+    border: 1px solid rgba(128,128,128,0.532);
+}
+.videoDescription{
+   display: flex;
+  height: 4rem; 
+  margin: auto auto;
+}
+
+.videoDetails{
+    width: 80%;
+    color: aliceblue;
+    padding: 0.1rem;
+    margin: 0.1rem;
+    height: fit-content;
+}
+.titleVidShowVideo{
+    margin: 0;
+    font-size: large;
+    font-weight: bolder;
+    color: antiquewhite;
+    display: flex;
+    text-align: clip;
+}
+
+.vidViewUploadTime{
+    font: small;
+    color: rgba(250,215,215,0.555);
+    display: flex;
+    margin: 0.2rem;
+}
+
+.dot{
+    height: 4px;
+    width: 4px;
+    border-radius: 100%;
+    background-color: white;
+    margin: auto;
+}

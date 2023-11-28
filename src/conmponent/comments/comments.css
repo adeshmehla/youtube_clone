@@ -1,0 +1,53 @@
+.commentsSubFormComments{
+ display: flex;
+ width: 80%;   
+}
+.commentIbox{
+    width: 70%;
+    padding: 0.5%;
+    padding-left: 2%;
+    background-color: transparent;
+    border: 0;
+    color: wheat;
+    border-bottom: 2px solid gray;
+}
+
+.commentAddBtnComment{
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-bottom: 2px solid rgb(64,64,64);
+    background-color: transparent;
+    color: aliceblue;
+    font-size: large;
+    width: 20%;
+}
+.commentAddBtnComment:hover{
+    border: 2px solid rgb(62,64,64,0.05);
+    border-bottom: 2px solid rgb(64,64,64);
+    background-color: rgba(240, 248, 255, 0.05);
+}
+
+.displayCommentContainer{
+    padding: 1rem;
+}
+
+/* // display comment css */
+.commentBody{
+    color: rgb(197,197,197);
+    margin: 0;
+    margin-top: 0.5rem;   
+}
+.userCommented{
+    color: rgb(50,50,50);
+    margin: 0;
+}
+.editDelDisplayComment{
+    padding: 0.2rem;
+    margin: 0;
+    margin-bottom: 0.8rem;
+    color: rgba(44,85,209,0.696);
+    cursor: pointer;
+}
+.editDelDisplayComment i {
+    padding-inline-start: 0.2rem;
+}
